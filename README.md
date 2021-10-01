@@ -1,6 +1,6 @@
-# Calculate π
+# Calculate Φ
 
-The goal of this repository is to present a few algorithms that allow you to calculate π with a high level of precision. 
+The goal of this repository is to present a few algorithms that allow you to calculate Φ (the golden ration) with a high level of precision. 
 
 In order to do this the [Python Decimal](https://docs.python.org/3/library/decimal.html) module is used. The module allows one to define the number decimal spaced used in the calculation. Obviously the greater the number of decimal spaces, the longer the calculation of by will take.
 
@@ -16,16 +16,12 @@ The algorithms have been setup in a away that the **while loop** ends once furth
 ---
 ## Algorithms used
 
-* ### [Gregory-Leibniz](https://en.wikipedia.org/wiki/Leibniz_formula_for_%CF%80)
-* ### [Ramanujan-Sato](https://en.wikipedia.org/wiki/Borwein%27s_algorithm#Class_number_2_(1989))
-* ### [Chudnovsky](https://en.wikipedia.org/wiki/Chudnovsky_algorithm)
-* ### [Bailey-Borwein-Plouffe](https://en.wikipedia.org/wiki/Bailey%E2%80%93Borwein%E2%80%93Plouffe_formula#BBP_digit-extraction_algorithm_for_%CF%80)
-* ### [Gauss-Legendre](https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_algorithm)
+* ### [Fibonacci series](https://en.wikipedia.org/wiki/Fibonacci_number)
+* ### [Taylor series](https://en.wikipedia.org/wiki/Taylor_series)
+* ### [Square root of five](https://en.wikipedia.org/wiki/Square_root_of_5#Relation_to_the_golden_ratio_and_Fibonacci_numbers)
 
 ---
 
 ## To dos
 
-* ~~Register the start time and the end time of the calculation, so that the total calculating time can be meassured~~
-* ~~Save the final result of π in to a file, toghether with the number of interactions, start time and end time~~
-* ~~Request the desiered level of precision (number of decimal spaces) right at the beggining -> done for Chudnovsky~~ 
+
